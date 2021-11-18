@@ -16,6 +16,7 @@ html_temp = """
 <h2 style="color:white;text-align:center;">Prediccion de Gastos por Seguros</h2>
 </div>
 """
+st.markdown(html_temp, unsafe_allow_html=True)
 
 st.image(image,use_column_width=False)
 
