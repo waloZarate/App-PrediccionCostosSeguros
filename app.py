@@ -10,7 +10,7 @@ from PIL import Image
 image = Image.open('hospital2.jpg')
 image_hospital = Image.open('hospital.jpg')
 
-st.title("App Predicción de gastos por seguros")
+st.title("App Predicción de gastos por seguros :sunglasses:")
 
 st.image(image,use_column_width=False)
 
