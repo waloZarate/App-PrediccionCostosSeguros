@@ -25,7 +25,7 @@ st.sidebar.image(image_hospital)
 
 if add_selectbox == 'Online':
     #st.title("Predict insurance charges")
-    st.write("""*:point_right:@ML app desarrollada por Oswaldo L. Zárate*""")
+    st.write("""*:point_right: @ML app desarrollada por Oswaldo L. Zárate*""")
 
     def load_data():
         df = pd.DataFrame({'sex': ['Male','Female'],
