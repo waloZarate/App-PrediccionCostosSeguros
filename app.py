@@ -10,7 +10,12 @@ from PIL import Image
 image = Image.open('hospital2.jpg')
 image_hospital = Image.open('hospital.jpg')
 
-st.title("App Predicción de gastos por seguros :sunglasses:")
+st.title("ML App :sunglasses:")
+html_temp = """
+<div style="background-color:teal ;padding:10px">
+<h2 style="color:white;text-align:center;">Prediccion de Gastos por Seguros</h2>
+</div>
+"""
 
 st.image(image,use_column_width=False)
 
